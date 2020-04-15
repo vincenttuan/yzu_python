@@ -42,3 +42,7 @@ kw = keyword.kwlist
 print(kw)
 
 # 刪除變數
+a = 10
+print(a)
+del a
+print(a)
