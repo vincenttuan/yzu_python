@@ -21,3 +21,10 @@ a = 10
 b = 3.14
 c = 1+2j
 print(type(a), type(b), c, type(c))
+
+# 變數初始值
+# age = 18
+# name = 'Vincent'
+age, name = 18, 'Vincent'
+print(age, name)
+
