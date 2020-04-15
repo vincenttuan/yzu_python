@@ -15,3 +15,4 @@ print(n1, n2, n3, n4)
 
 # 跳脫字元
 print("\"")
+print("A\nB\tC")
