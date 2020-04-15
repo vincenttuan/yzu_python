@@ -37,5 +37,8 @@ score = 55
 mark = score >= 60
 print(mark, type(mark))
 
+# 保留字
 kw = keyword.kwlist
 print(kw)
+
+# 刪除變數
