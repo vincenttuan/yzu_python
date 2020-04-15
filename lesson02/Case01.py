@@ -28,3 +28,9 @@ print(type(a), type(b), c, type(c))
 age, name = 18, 'Vincent'
 print(age, name)
 
+check = True
+print(check, type(check))
+
+score = 55
+mark = score >= 60
+print(mark, type(mark))
