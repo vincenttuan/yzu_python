@@ -14,5 +14,9 @@ n4 = random.randint(0, 9)
 print(n1, n2, n3, n4)
 
 # 跳脫字元
-print("\"")
-print("A\nB\tC")
+print("\""); print("A\nB\tC")
+
+a = 100 + 200\
+    - 50 * 5 \
+    / 10
+print(a)
