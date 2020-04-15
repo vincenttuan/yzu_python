@@ -4,7 +4,9 @@ print("score", score)
 print("score", score, sep="=")
 print("score", score, sep=",")
 print("score", score, sep="&")
+
 print("a")
 print("b")
+
 print("a", end="")
 print("b")
