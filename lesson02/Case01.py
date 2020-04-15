@@ -19,4 +19,5 @@ print(a, b, c, d)
 # 型態
 a = 10
 b = 3.14
-print(type(a), type(b))
+c = 1+2j
+print(type(a), type(b), c, type(c))
