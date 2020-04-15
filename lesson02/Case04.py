@@ -5,8 +5,12 @@ print("score", score, sep="=")
 print("score", score, sep=",")
 print("score", score, sep="&")
 
-print("a")
-print("b")
+print("a")  # 預設 end="\n"
+print("b")  # 預設 end="\n"
 
 print("a", end="")
-print("b")
+print("b")  # 預設 end="\n"
+
+print("A", end="")
+print("B", end="")
+print("C", end="\n")
