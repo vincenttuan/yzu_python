@@ -8,3 +8,4 @@ shares = int(input('請輸入股數 = '))
 # %s(放字串) %d(放整數) %f(放浮點數)
 print("%s %s成交價 %.1f 買進 %d 股 (%d張) 成本 %.1f" %
       (symbol, name, price, shares, shares/1000, price * shares))
+
