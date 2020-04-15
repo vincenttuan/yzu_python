@@ -1,3 +1,4 @@
+# -*- coding:UTF-8 -*-
 import random
 
 r = random.randrange(0, 2)  # 0 <= r < 2
