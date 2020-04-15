@@ -1,4 +1,6 @@
 # -*- coding:UTF-8 -*-
+import keyword
+
 print("我是中文")
 
 if 2 < 0 :
@@ -34,3 +36,6 @@ print(check, type(check))
 score = 55
 mark = score >= 60
 print(mark, type(mark))
+
+kw = keyword.kwlist
+print(kw)
