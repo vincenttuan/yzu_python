@@ -7,5 +7,7 @@ while True:
     if guess == ans:
         print('恭喜答對了')
         break;
+    elif guess < ans:
+        min = guess
     else:
-        pass
+        max = guess
