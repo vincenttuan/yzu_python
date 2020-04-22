@@ -1,5 +1,6 @@
 # yzu_python
 元智 2020/4 Python
+<pre>
 一. Python環境安裝
 
 1.下載 Python 3.8.2 版
@@ -39,3 +40,5 @@ https://www.openfoundry.org/tw/tech-column/9179-python-
 
 8.程式碼範例
 https://github.com/vincenttuan/yzu_python
+
+</pre>
