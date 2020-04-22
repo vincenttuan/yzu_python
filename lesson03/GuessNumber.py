@@ -2,9 +2,11 @@ import random as r
 ans = r.randint(1, 99)
 min = 0
 max = 100
+count = 7
 
-while True:
-    guess = int(input('請輸入數字 %d ~ %d :' % (min, max)))
+while count > 0:
+    guess = int(input('(%d次數)請輸入數字 %d ~ %d :' % (count, min, max)))
+    count -= 1  # count = count - 1
     # 先驗證數字是否在合法範圍 ?
     if guess <= min or guess >= max:
         print('數字範圍錯誤, 請重新輸入 !')
