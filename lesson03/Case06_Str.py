@@ -7,4 +7,5 @@ print("有 sea 這個字嗎 ? %d" % s.find('sea'))
 # 技巧: 先利用 replace 去除空白
 print(s.replace(' ', '').isalpha())
 
+print(s.swapcase())
 
