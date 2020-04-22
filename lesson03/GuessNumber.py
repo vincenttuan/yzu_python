@@ -6,5 +6,6 @@ while True:
     guess = int(input('請輸入數字 %d ~ %d :' % (min, max)))
     if guess == ans:
         print('恭喜答對了')
+        break;
     else:
         pass
