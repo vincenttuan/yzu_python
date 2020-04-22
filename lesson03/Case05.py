@@ -3,5 +3,5 @@ def mask(money) :
     size = "成人"
     return x, size
 
-x, size = mask(100)
-print(x, size)
+my_x, my_size = mask(100)
+print(my_x, my_size)
