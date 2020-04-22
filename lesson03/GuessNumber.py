@@ -1,4 +1,5 @@
-ans = 47
+import random as r
+ans = r.randint(1, 99)
 min = 0
 max = 100
 
