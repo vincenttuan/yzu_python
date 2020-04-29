@@ -7,7 +7,7 @@ names = []
 lan = 'Python'
 for emp in emps:
     for p in emp['program']:
-        if p == lan :
+        if p == lan:
             names.append(emp['name'])
 
 print(names)
