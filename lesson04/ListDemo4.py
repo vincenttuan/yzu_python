@@ -67,3 +67,5 @@ while True:
         continue
     break
 print('pc: ', pc, getScore(pc))
+
+# 誰贏 ?
