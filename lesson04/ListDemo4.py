@@ -45,3 +45,25 @@ def draw(pc):
         else:
             return False
 
+# 洗牌
+r.shuffle(poker)
+
+# 使用者先拿牌
+user = []
+user.append(poker.pop(0))
+while True:
+    print('user: ', user, getScore(user))
+    flag = int(input('是否要牌?(0:不要, 1:要)'))
+    if flag == 0:
+        break
+    user.append(poker.pop(0))
+
+# PC 拿牌
+pc = []
+pc.append(poker.pop(0))
+while True:
+    if draw(pc):
+        pc.append(poker.pop(0))
+        continue
+    break
+print('pc: ', pc, getScore(pc))
