@@ -9,9 +9,9 @@ for emp in emps:
     sum = sum + emp['salary']
 print(sum)
 
-salary = []
+salary = []  # 建立一個 salary 的數組
 for emp in emps:
-    salary.append(emp['salary'])
+    salary.append(emp['salary'])  # 將 salary內容 放入數組中
 print(salary)
-print(max(salary))
-print(min(salary))
+print(max(salary))  # 求最大值
+print(min(salary))  # 求最小值
