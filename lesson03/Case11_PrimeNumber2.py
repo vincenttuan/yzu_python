@@ -6,5 +6,7 @@ def isPrime(n):
             break
     return check
 
+#------------------------------------------
+
 for i in range(2, 101):
     print(i, "質數" if isPrime(i) else "")
