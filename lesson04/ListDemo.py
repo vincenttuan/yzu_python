@@ -16,20 +16,22 @@ print(poker)
 r.shuffle(poker)
 print(poker)
 # 計算前三張的點數, A=1, 2=2 ... J,Q,K = 0.5
-print(poker[:3])
+print(poker[0:3])
+
 def score(po): # 假設 po = ['A', 9, 'J']
     sum = 0
     for p in po:
         if p == 'A':
             sum = sum + 1
             continue
-
         if p == 'J' or p == 'Q' or p == 'K':
             sum = sum + 0.5
             continue
-
         sum = sum + p
-
     return sum
 
 print(poker[:3], score(poker[:3]))
+
+# 元素是否存在於數組中
+print('A' in poker)
+
