@@ -47,6 +47,7 @@ def draw(pc):
         else:
             return False
 
+# 誰是贏家 ?
 def getWinner(user, pc):
     user_score = getScore(user)
     pc_score = getScore(pc)
@@ -67,6 +68,7 @@ def getWinner(user, pc):
         return 'user'
     else:
         return 'pc'
+
 # 洗牌
 r.shuffle(poker)
 
