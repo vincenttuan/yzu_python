@@ -35,3 +35,4 @@ print(poker[:3], score(poker[:3]))
 # 元素是否存在於數組中
 print('A' in poker)
 
+
