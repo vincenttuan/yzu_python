@@ -2,6 +2,7 @@
 import random as r
 
 poker = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K'] * 4
+
 # 計算分數
 def getScore(po): # 假設 po = ['A', 9, 'J']
     sum = 0
@@ -14,6 +15,7 @@ def getScore(po): # 假設 po = ['A', 9, 'J']
             continue
         sum = sum + p
     return sum
+
 # 是否要補牌 (True, False)
 def draw(pc):
     score = getScore(pc)
@@ -45,6 +47,26 @@ def draw(pc):
         else:
             return False
 
+def getWinner(user, pc):
+    user_score = getScore(user)
+    pc_score = getScore(pc)
+
+    if user_score > 10.5 and pc_score > 10.5:
+        return None
+
+    if user_score <= 10.5 and pc_score > 10.5:
+        return 'user'
+
+    if user_score > 10.5 and pc_score <= 10.5:
+        return 'pc'
+
+    if user_score == pc_score :
+        return 'Equal'
+
+    if user_score > pc_score:
+        return 'user'
+    else:
+        return 'pc'
 # 洗牌
 r.shuffle(poker)
 
@@ -69,3 +91,4 @@ while True:
 print('pc: ', pc, getScore(pc))
 
 # 誰贏 ?
+print(getWinner(user, pc))
