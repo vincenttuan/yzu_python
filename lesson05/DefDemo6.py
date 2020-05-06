@@ -12,3 +12,5 @@ x = operate(add, x)
 print(x)
 x = operate(sub, x)
 print(x)
+
+z = [add, sub]  # 函式陣列
