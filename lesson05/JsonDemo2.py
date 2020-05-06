@@ -7,5 +7,5 @@ r = requests.get(url)
 #print(r.text)
 bad_rices = json.loads(r.text)
 for bad in bad_rices:
-    if '壽司' in bad.get('品名'):
-        print(bad.get('品名'))
+    if '日本' in bad.get('品名'):
+        print(bad.get('品名'), bad.get('不合格原因'))
