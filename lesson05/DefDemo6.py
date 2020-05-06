@@ -10,3 +10,5 @@ def operate(func, x):
 x = 10
 x = operate(add, x)
 print(x)
+x = operate(sub, x)
+print(x)
