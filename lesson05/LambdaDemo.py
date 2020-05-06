@@ -7,3 +7,6 @@ print(check_score(max(70, 20)))
 
 bmi = lambda h, w : w / (h/100)**2
 print("bmi=", bmi(170, 60))
+
+weather = lambda : print("24.5度")
+weather()
