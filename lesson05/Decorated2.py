@@ -13,4 +13,4 @@ def report():
 
 
 report()
-login(report, 12345)()
+login(report, int(input('請輸入密碼:')))()
