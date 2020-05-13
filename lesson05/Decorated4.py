@@ -1,5 +1,6 @@
-def login(func, password):
-    def check():
+
+def login(password):
+    def check(func):
         if password == 1234:
             print("登入成功")
             func()
@@ -8,7 +9,7 @@ def login(func, password):
             return None
     return check
 
-@login(func=None, password=1234)
+@login(password=1234)
 def report():
     print("密件: 今日頭條...")
 
