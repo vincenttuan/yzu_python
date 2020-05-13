@@ -1,3 +1,4 @@
-John, 50000
-Mary, 60000
-Helen, 70000
+Jane, 80000
+Jane, 80000
+Jane, 80000
+Jane, 80000
