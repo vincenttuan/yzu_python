@@ -9,7 +9,7 @@ for d in data.get('data'):
     dict = {'title':d.get('title'), 'headlines':d.get('headlines')}
     news_list.append(dict)
 
-file = open('news3.txt', 'a')
+file = open('news4.txt', 'a', encoding='UTF-8')
 for news in news_list:
     for head in news['headlines']:
         if '譚德塞' in head[1]:
