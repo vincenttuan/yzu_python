@@ -7,4 +7,6 @@ def message(text):
 m1 = message("Hello1")
 m2 = message("Hello2")
 m3 = message("Hello3")
-#m1()
+m1()
+m2()
+m3()
