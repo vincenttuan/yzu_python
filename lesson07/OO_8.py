@@ -2,8 +2,8 @@ class DictDemo:
     def __init__(self):
         self.dict = {}
 
-    def __getitem__(self, item):
-        return self.dict[item]
+    def __getitem__(self, key):
+        return self.dict[key]
 
     def __setitem__(self, key, value):
         self.dict[key] = value
