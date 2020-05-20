@@ -21,4 +21,10 @@ if __name__ == '__main__':
     print(h.name, h.sex, h.age)
     print(h)
 
-
+    s = Student()
+    s.name = 'Tom'
+    s.sex = '男'
+    s.age = 20
+    s.number = 1
+    s.grade = '一年級'
+    print(s)
