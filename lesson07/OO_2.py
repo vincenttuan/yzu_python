@@ -5,3 +5,4 @@ h.name = 'Mary'
 h.sex = '女'
 h.age = 19
 print(h.name, h.sex, h.age)
+print(h)
