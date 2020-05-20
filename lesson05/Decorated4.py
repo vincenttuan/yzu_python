@@ -1,13 +1,15 @@
 
 def login(password):
-    def check(func):
-        if password == 1234:
-            print("登入成功")
-            func()
-        else:
-            print("登入失敗")
-            return None
-    return check
+    def decorated(func):
+        def check():
+            if password == 1234:
+                print("登入成功")
+                func()
+            else:
+                print("登入失敗")
+                return None
+        return check
+    return decorated
 
 @login(password=1234)
 def report():
