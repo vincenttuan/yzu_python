@@ -3,7 +3,7 @@ class Human:
     sex = ''
     age = 0
 
-    def __str__(self):
+    def __str__(self):  # self 相當於 java 中的 this
         return self.name + ", " + self.sex + ", " + str(self.age)
 
 #print(__name__)
