@@ -3,7 +3,6 @@ class Human:
     sex = ''
     age = 0
 
-
 if __name__ == '__main__':
     h = Human()
     h.name = 'Vincent'
