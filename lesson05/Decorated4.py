@@ -1,4 +1,3 @@
-
 def login(password):
     def decorated(func):
         def check():
