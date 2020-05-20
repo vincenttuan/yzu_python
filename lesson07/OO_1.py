@@ -9,7 +9,7 @@ class Student(Human):
     number = 0
     grade = ''
     def __str__(self):
-        return ", " + str(self.number) + ", " + self.grade
+        return self.name + ", " + self.sex + ", " + str(self.age) + ", " + str(self.number) + ", " + self.grade
 
 
 #print(__name__)
