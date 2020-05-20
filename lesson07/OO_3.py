@@ -10,7 +10,7 @@ class Account:
         return self.name + "有 $" + str(self.__balance)
 
 if __name__ == '__main__':
-    Account.bank = '元大銀行' # 靜態變數
+    Account.bank = '元大銀行' # 靜態/類別變數
     acc = Account()
     acc.name = 'Vincent'
     acc.addBalance(200)
