@@ -13,7 +13,7 @@ time.sleep(1)
 driver.find_element_by_id("ijob").click()
 time.sleep(1)
 
-driver.find_element_by_class_name('category-item.category-item--level-two').click()
+driver.find_element_by_class_name('category-item.category-item--focus.category-item--level-two').click()
 time.sleep(1)
 
 try:
