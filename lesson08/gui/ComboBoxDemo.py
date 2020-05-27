@@ -25,16 +25,16 @@ chk2 = tkinter.Checkbutton(win, text='提袋')
 
 btn = tkinter.Button(win, text="結帳", command=submit)
 # UI 布局
-label.grid (column=0, row=0, padx=10, pady=10, sticky="W")
-combo.grid (column=0, row=0, padx=70, pady=10, sticky="W")
-label2.grid(column=0, row=1, padx=10, pady=10, sticky="W")
-rdio1.grid(column=0, row=1, padx=70, pady=10, sticky="W") # E,S,W,N
-rdio2.grid(column=0, row=1, padx=130, pady=10, sticky="W")
-rdio3.grid(column=0, row=1, padx=190, pady=10, sticky="W")
-rdio4.grid(column=0, row=1, padx=250, pady=10, sticky="W")
-rdio5.grid(column=0, row=1, padx=310, pady=10, sticky="W")
-chk1.grid(column=0, row=2, padx=10, pady=10, sticky="W")
-chk2.grid(column=0, row=2, padx=70, pady=10, sticky="W")
-btn.grid(column=0, row=3, padx=10, pady=10, sticky="W")
+label.grid (column=0, row=0, padx=10,  pady=10, sticky="W")
+combo.grid (column=0, row=0, padx=70,  pady=10, sticky="W")
+label2.grid(column=0, row=1, padx=10,  pady=10, sticky="W")
+rdio1.grid (column=0, row=1, padx=70,  pady=10, sticky="W") # E,S,W,N
+rdio2.grid (column=0, row=1, padx=130, pady=10, sticky="W")
+rdio3.grid (column=0, row=1, padx=190, pady=10, sticky="W")
+rdio4.grid (column=0, row=1, padx=250, pady=10, sticky="W")
+rdio5.grid (column=0, row=1, padx=310, pady=10, sticky="W")
+chk1.grid  (column=0, row=2, padx=10,  pady=10, sticky="W")
+chk2.grid  (column=0, row=2, padx=70,  pady=10, sticky="W")
+btn.grid   (column=0, row=3, padx=10,  pady=10, sticky="W")
 
 win.mainloop()
