@@ -10,7 +10,7 @@ def input_number():
         print('輸入資料錯誤, 請重新輸入~', e)
         input_number()
     except Exception as e:
-        print("發生了一個我料想不到的錯誤," + e)
+        print("發生了一個我料想不到的錯誤", e)
     else:
         print(z)
 
