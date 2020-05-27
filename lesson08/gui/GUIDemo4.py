@@ -1,12 +1,16 @@
 import tkinter
 
 def myadd():
-    pass
+    num.set(num.get() + 1)
+
 
 win = tkinter.Tk()
 win.geometry('300x300')
 
-label = tkinter.Label(win, text="0")
+num = tkinter.IntVar()
+num.set(0)
+
+label = tkinter.Label(win, textvariable=num)
 label.pack()
 
 button = tkinter.Button(win, text='Add', command=myadd)
