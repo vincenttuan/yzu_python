@@ -41,4 +41,15 @@ https://www.openfoundry.org/tw/tech-column/9179-python-
 8.程式碼範例
 https://github.com/vincenttuan/yzu_python
 
+
+其他補充：
+Tkinter 教程：
+https://www.delftstack.com/zh-tw/tutorial/tkinter-tutorial/tkinter-introduction/
+
+Window 安裝 opencv for Python：
+env -> 主環境為例
+File -> settings -> Project Interpreter -> 按下[+] -> 安裝 py-opencv
+Terminal -> pip install opencv-python
+Terminal -> pip install opencv_contrib_python
+
 </pre>
