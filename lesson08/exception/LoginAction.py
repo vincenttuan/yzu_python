@@ -1,4 +1,4 @@
-import lesson08.MyException as me
+import lesson08.exception.MyException as me
 
 def login(username, password):
     if username == 'admin' and password == '1234':
