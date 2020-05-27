@@ -3,7 +3,6 @@ import tkinter
 def myadd():
     num.set(num.get() + 1)
 
-
 win = tkinter.Tk()
 win.geometry('300x300')
 
@@ -15,6 +14,5 @@ label.pack()
 
 button = tkinter.Button(win, text='Add', command=myadd)
 button.pack()
-
 
 win.mainloop()
