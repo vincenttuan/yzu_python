@@ -1,8 +1,7 @@
 import sqlite3
 
 sql = 'Insert into Lotto(n1, n2, n3, n4, n5, n6) ' \
-      'Values (%d, %d, %d, %d, %d, %d)' % (21, 22, 23, 24, 25, 26)
-
+      'Values (%d, %d, %d, %d, %d, %d)' % (31, 32, 33, 34, 35, 36)
 
 conn = sqlite3.connect("demo.db")
 cursor = conn.cursor()
