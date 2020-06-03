@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 conn = sqlite3.connect('company.db')
-c = conn.cursor()
 
 df = pd.read_sql_query("SELECT * FROM Employee", con=conn)
 print(df.shape)
