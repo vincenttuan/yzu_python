@@ -17,8 +17,8 @@ if not cap.isOpened():
     cap.open()
 
 # 設定捕捉區域
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
 
 while True:
     # 捕捉 frame-by-frame
@@ -26,7 +26,7 @@ while True:
     print(frame)
 
     # 將 frame 顯示
-    cv2.imshow('Video', frame)
+    cv2.imshow('My OpenCV', frame)
 
     # 按下 q 離開迴圈 (「1」表示停 1ms 來偵測是否使用者有按下q。若設定為「0」就表示持續等待至使用者按下按鍵為止)
     if cv2.waitKey(1) & 0xFF == ord('q'):
