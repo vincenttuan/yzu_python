@@ -41,7 +41,7 @@ if __name__ == '__main__':
         ret, image = camera.read()  # ret : 讀到的 frame 是正確的話會回傳 true
 
         # 將 frame 顯示於視窗中 (這樣才可以看到自己的臉)
-        # ??
+        cv2.imshow('Capture', image)
 
         # 按下 q 離開迴圈 (「1」表示停 1ms 來偵測是否使用者有按下q。若設定為「0」就表示持續等待至使用者按下按鍵為止)
         if cv2.waitKey(1) & 0xFF == ord('q'):
