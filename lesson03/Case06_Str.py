@@ -8,4 +8,3 @@ print("有 sea 這個字嗎 ? %d" % s.find('sea'))
 print(s.replace(' ', '').isalpha())
 
 print(s.swapcase())
-
